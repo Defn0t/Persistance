@@ -1,0 +1,1 @@
+Finshots scrape is not part of the final submitted project, althoug it still works :)

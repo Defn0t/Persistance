@@ -1,0 +1,32 @@
+
+titles = []
+links = []
+
+
+for div in divs:
+    element = div.find('a')
+    links.append('https://finshots.in' + element["href"])
+    titles.append(element.find('h2').text)
+
+
+
+terminal char limit = 93 ishhh
+cmd char limit 100 (low end)  120 (top end)
+
+Available Date time formats:
+<span id="tListBox_11622789255118" data-updatedtime="2021-06-04T12:29:15" data-expandedtime="Updated: 04 Jun 2021, 12:29 PM IST" data-updatedlongtime="12:29 PM IST">12:29 PM IST</span>
+MINT
+data-updatedtime="2021-06-04T12:29:15"
+data-expandedtime="Updated: 04 Jun 2021, 12:29 PM IST"
+data-updatedlongtime="12:29 PM IST"
+
+<span data-time="04 Jun, 2021 01:59 PM IST" class="timestamp">04 Jun, 2021 01:59 PM IST</span>
+ETLIVE
+data-time="04 Jun, 2021 01:59 PM IST"
+
+
+
+#date = datetime.datetime.strptime(time_stamps[0], "%Y-%m-%dT%H:%M:%S")
+#date1 = datetime.datetime.strptime(time_stamps[1], "%Y-%m-%dT%H:%M:%S")
+
+"%d %M, %y %h:%S"
